@@ -1,0 +1,37 @@
+/* Estilo general */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Contenedor flexbox */
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre las cajas */
+}
+
+/* Estilo de las cajas */
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+/* Colores */
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
